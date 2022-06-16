@@ -33,6 +33,7 @@ li,
 button,
 label,
 input,
+a,
 p {
     font-size: var(--text);
 }
@@ -61,3 +62,111 @@ a {
 ul {
     list-style: none;
 }
+
+/* 
+===============================
+Navbar
+===============================
+*/
+.main__header {
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 2;
+}
+
+.nav__logo {
+    font-family: 'Great Vibes', cursive;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    min-height: 10vh;
+    padding: 0 2rem;
+}
+
+.nav__links {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.nav__link {
+    margin: 0 2rem;
+}
+
+.nav__link--anchor {
+    color: var(--text);
+}
+
+/* 
+===============================
+Landing Page
+===============================
+*/
+
+.landing {
+    min-height: 90vh;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.landing__information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 2 1 40rem;
+}
+
+.landing__para {
+    text-align: center;
+    padding: 5rem 10rem;
+}
+
+.landing__title {
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.gallery__link {
+    padding: 2rem 8rem;
+    border: 3px solid black;
+    margin-bottom: 4rem;
+}
+
+.landing__images {
+    flex: 1 1 40rem;
+    background: linear-gradient(#dad8dd, #dad1d4);
+    position: relative;
+    z-index: 1;
+}
+
+.landing__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.plant {
+    position: absolute;
+    bottom: 0;
+    left: -20%;
+    z-index: -1;
+}
+
+.plant2 {
+    left: 60%;
+}
+
+/* 
+===============================
+
+===============================
+*/
