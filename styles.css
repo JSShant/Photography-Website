@@ -165,8 +165,10 @@ Landing Page
     left: -20%;
     z-index: -1;
     animation: plantEntrance 1.5s ease-in-out 0.5s forwards;
-    transform: translateY(10%) rotateZ(-10deg)
+    transform: translateY(10%) rotateZ(-10deg);
+    max-height: 80%;
 }
+
 
 .plant2 {
     left: 55%;
@@ -206,6 +208,10 @@ Burger
 */
 
 @media screen and (max-width:888px) {
+    .landing__para {
+        padding: 5rem 3rem;
+    }
+
     .burger {
         position: relative;
         display: block;
